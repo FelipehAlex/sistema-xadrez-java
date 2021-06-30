@@ -9,6 +9,11 @@ public class Piece {
         this.borad = borad;
         position = null;
     }
+
+    protected Board getBorad() {
+        return borad;
+    }
     
+     
     
 }
