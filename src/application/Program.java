@@ -14,11 +14,10 @@ public class Program {
         Scanner sc = new Scanner(System.in);
         ChessMatch chessMatch = new ChessMatch();
 
-        // Logica temporaria
         while (true) {
             try{
                 UI.clearScreen();
-                UI.printBoard(chessMatch.getPieces());
+                UI.printMach(chessMatch);
                 System.out.println();
                 System.out.print("Origem: ");
                 ChessPosition source = UI.readChessPosition(sc);
