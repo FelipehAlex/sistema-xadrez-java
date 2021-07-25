@@ -49,5 +49,7 @@ public class Program {
                 sc.nextLine();
             }
         }
+        UI.clearScreen();
+        UI.printMach(chessMatch, captured);
     }
 }
