@@ -3,15 +3,15 @@ package boardgame;
 public abstract class Piece {
     
     protected Position position;
-    private Board borad;
+    private Board board;
 
     public Piece(Board borad) {
-        this.borad = borad;
+        this.board = borad;
         position = null;
     }
 
-    protected Board getBorad() {
-        return borad;
+    protected Board getBoard() {
+        return board;
     }
     
     public abstract boolean[][] possibleMoves(); 
